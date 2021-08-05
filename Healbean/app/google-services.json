@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "927466811986",
+    "project_id": "healbean-3718b",
+    "storage_bucket": "healbean-3718b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:927466811986:android:6c465b7ecc2c8f2e96e58b",
+        "android_client_info": {
+          "package_name": "com.example.healbean"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "927466811986-07jau9r3ssg7m1bnjsvqka2tnoi4ri2m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClrwLcUTyNTudjYrh9sWgEWppk0CTOp-A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "927466811986-07jau9r3ssg7m1bnjsvqka2tnoi4ri2m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

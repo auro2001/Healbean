@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myelo">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/myelopero"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="112dp"
+        app:layout_constraintBottom_toTopOf="@+id/myelorate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/myeloper" />
+
+    <TextView
+        android:id="@+id/myelorate"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="316dp"
+        android:gravity="center"
+        android:text="Myeloperoxidase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutmyelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/myelorate"
+        app:layout_constraintTop_toBottomOf="@+id/myelorate"
+        app:layout_constraintVertical_bias="0.176">
+
+        <TextView
+            android:id="@+id/myeloValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="635"
+            android:textColor="@color/teal_200"
+            android:textSize="90dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:text="pmol/L" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/updatebutmyelo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="Update"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutmyelo"
+        app:layout_constraintVertical_bias="0.343" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

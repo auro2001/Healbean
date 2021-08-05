@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HealBean</string>
+    <string name="temperature">Temperature </string>
+    <string name="heart">Heart Beat</string>
+    <string name="ecg">ECG</string>
+    <string name="saturation">Oxy Saturation</string>
+    <string name="respiration">respiration</string>
+    <string name="bp">BP</string>
+</resources>
